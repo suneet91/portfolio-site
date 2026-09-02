@@ -9,7 +9,7 @@ export type ExperienceItem = {
 export const experience: ExperienceItem[] = [
   {
     role: "Data & AI Engineer",
-    company: "Hewlett Packard Enterprise",
+    company: "Fortune 500 Enterprise Technology Company",
     period: "Aug 2021 - Present",
     location: "Singapore",
     highlights: [
@@ -20,7 +20,7 @@ export const experience: ExperienceItem[] = [
   },
   {
     role: "Data Engineer",
-    company: "Palo IT Singapore",
+    company: "Global Digital Consultancy (FinTech & Analytics)",
     period: "Nov 2019 - Aug 2021",
     location: "Singapore",
     highlights: [
@@ -30,7 +30,7 @@ export const experience: ExperienceItem[] = [
   },
   {
     role: "Software Engineer II",
-    company: "Microsoft R&D",
+    company: "Fortune 500 Global Software & Cloud Technology Company",
     period: "Sep 2018 - Nov 2019",
     location: "Hyderabad, India",
     highlights: [
@@ -40,7 +40,7 @@ export const experience: ExperienceItem[] = [
   },
   {
     role: "Big Data Consultant",
-    company: "Deloitte USI",
+    company: "Big 4 Global Professional Services Firm",
     period: "Feb 2017 - Mar 2018",
     location: "Bengaluru, India",
     highlights: [
@@ -49,7 +49,7 @@ export const experience: ExperienceItem[] = [
   },
   {
     role: "Senior Software Engineer",
-    company: "Ericsson Global India",
+    company: "Fortune Global 500 Telecommunications Equipment Company",
     period: "Dec 2012 - Feb 2017",
     location: "Bengaluru, India",
     highlights: [
