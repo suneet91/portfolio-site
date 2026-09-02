@@ -13,9 +13,24 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://portfolio-site-kappa-sable.vercel.app"),
   title: "Suneet Pal Kaur | Data & AI Engineer",
   description:
     "Data & AI Engineer building production RAG and agentic GenAI systems.",
+  openGraph: {
+    title: "Suneet Pal Kaur | Data & AI Engineer",
+    description:
+      "Data & AI Engineer building production RAG and agentic GenAI systems.",
+    images: [{ url: "/og-image.png", width: 1200, height: 630 }],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Suneet Pal Kaur | Data & AI Engineer",
+    description:
+      "Data & AI Engineer building production RAG and agentic GenAI systems.",
+    images: ["/og-image.png"],
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
